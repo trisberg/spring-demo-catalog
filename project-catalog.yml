@@ -1,0 +1,21 @@
+---
+project-repositories:
+- name: "hello-crac"
+  description: "Hello World sample app using CRaC checkpoint on startup."
+  url: "https://github.com/trisberg/hello-world"
+  tags:
+  - "java-17"
+  - "boot-3.2.x"
+  - "knative"
+  - "crac"
+  - "checkpoint"
+- name: "hello-crac-job"
+  description: "Hello World sample app using CRaC checkpoint using a job."
+  url: "https://github.com/trisberg/hello-world/tree/crac-job"
+  tags:
+  - "java-17"
+  - "boot-3.2.x"
+  - "knative"
+  - "crac"
+  - "checkpoint"
+  - "job"
